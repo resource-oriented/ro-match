@@ -4,6 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>com.resource-oriented.util</groupId>
+    <artifactId>ro-match</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
     <name>Match Expressions</name>
     <description>A framework supporting runtime construction and representation of expressions
         which can be used to match resources based on their property values.</description>
@@ -23,15 +28,10 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/simpligility/ossrh-demo.git</connection>
-        <developerConnection>scm:git:ssh://github.com:simpligility/ossrh-demo.git</developerConnection>
-        <url>http://github.com/simpligility/ossrh-demo/tree/master</url>
+        <connection>scm:git:git://github.com/resource-oriented/ro-match.git</connection>
+        <developerConnection>scm:git:ssh://github.com:resource-oriented/ro-match.git</developerConnection>
+        <url>https://github.com/resource-oriented/ro-match/tree/main</url>
     </scm>
-
-    <groupId>com.resource-oriented.util</groupId>
-    <artifactId>ro-match</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <packaging>pom</packaging>
 
     <modules>
         <module>ro-match-api</module>
